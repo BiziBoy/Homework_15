@@ -14,7 +14,7 @@ namespace Homework_15
       {
         Console.WriteLine(array[i]);
         i++;
-        Print(array, i);
+        Print(array);
       }
     }
 
@@ -22,6 +22,7 @@ namespace Homework_15
     {
       int[] myArray = new int[5] { 1, 2, 3, 4, 5 };
       Print(myArray);
+      
       Console.ReadLine();
     }
   }
