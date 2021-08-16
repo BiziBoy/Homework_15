@@ -14,8 +14,9 @@ namespace Homework_15
       {
         Console.WriteLine(array[i]);
         i++;
-        Print(array);
+        Print(array, i);
       }
+
     }
 
     static void Main(string[] args)
