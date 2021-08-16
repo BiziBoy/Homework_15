@@ -10,7 +10,7 @@ namespace Homework_15
   {
    static void Print(in int[] array, int i = 0)
     {
-      if (i != array.Length)
+      if (i < array.Length)
       {
         Console.WriteLine(array[i]);
         i++;
