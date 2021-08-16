@@ -13,8 +13,7 @@ namespace Homework_15
       if (i < array.Length)
       {
         Console.WriteLine(array[i]);
-        i++;
-        Print(array, i);
+        Print(array, i + 1);
       }
 
     }
